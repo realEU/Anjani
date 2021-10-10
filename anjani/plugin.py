@@ -81,7 +81,7 @@ class Plugin:
                 if lang_code == "en":
                     return (
                         f"**NO LANGUAGE STRING FOR '{text_name}' in '{lang_code}'**\n"
-                        "__Please forward this to__ @userbotindo"
+                        "__Please forward this to__ @marinechats"
                     )
 
                 self.bot.log.warning("NO LANGUAGE STRING FOR '%s' in '%s'", text_name, lang_code)
