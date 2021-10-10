@@ -33,7 +33,7 @@ class Backups(plugin.Plugin):
         """Backup chat data from file"""
         chat = ctx.msg.chat
         data = {"chat_id": chat.id}
-        file = AsyncPath(f"{chat.title}-backup.anjani")
+        file = AsyncPath(f"{chat.title}-backup.marine")
 
         await ctx.respond(await self.text(chat.id, "backup-progress"))
 
